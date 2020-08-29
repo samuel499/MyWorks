@@ -1,0 +1,68 @@
+* {margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    color: white;
+}
+#container {
+    font-family: "Bowlby One SC", cursive;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+span{
+    color: red;
+}
+#description{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: "Sorts Mill Goudy";
+}
+#form{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    margin: auto;
+    padding-left:3em;
+    height: auto;
+    padding-top: 20px;
+}
+#name,
+#age,
+#email,
+#contenttype {
+    border: none;
+    margin-top: 16px;
+    width: 400px;
+    height: 36px;
+    padding: 10px;
+}
+
+#tamamı{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+
+#submit {
+    font-size: larger;
+    margin: 16px 0px 16px 150px;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+#submit:hover{
+    background: white;
+    color: red;
+}
+  
+#textarea{
+      width: 400px;
+      height: 100px;
+  }
